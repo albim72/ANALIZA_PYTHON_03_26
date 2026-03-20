@@ -200,7 +200,7 @@ class QuantumDiceCleaner:
 
     # =====================================================
     # 4. WYKRYWANIE ANOMALII GLOBALNYCH
-    # =====================================================
+# =====================================================
     def detect_row_anomalies(self, encoded_df: pd.DataFrame) -> pd.Series:
         temp = encoded_df.copy()
 
